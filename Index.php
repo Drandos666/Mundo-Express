@@ -15,7 +15,6 @@
 
     <div class="lista" >
         <p><br><br><br><br><br>
-        <a href="Index.html">  Inicio  </a><br><br><br>
         <a href="formulario.html">  Ingresar  </a><br><br><br>
         <a href="formulario.html">  Inscribirse  </a><br><br><br>
         <a href="formulario.html">  Tarifas  </a><br><br><br>

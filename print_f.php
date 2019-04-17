@@ -45,8 +45,9 @@
         echo "<br/>";
     }
         ?> 
-        <p><input type="button" value="Imprir esta pagina" onclick="window.print()"></p>          
-        <p><a href="index.html">Volver al Formulario</a></p>
+        <p><input type="button" value="Imprir el Formulario" onclick="window.print()"></p>          
+        <p><a href="formulario.html">Volver al Formulario</a></p>
+        <p><a href="Index.php">Volver a la Pagina Principal</a></p>
         </div>
     <LINK REL=StyleSheet HREF="css/skin_print_f.css">
 
@@ -56,9 +57,8 @@
 
 </head>
 <body>
-    <div class="h1">
-    <h1>Los Datos Captados para el Formulario Fueron: </h1>
-    </div>
+<img src="logo.jpg" >
+    <div class= "portada"><h2><br>Sus Datos Captados para la inscripcion Fueron: <strong></strong><br></h2></div>
 </body>
 
 </html>
