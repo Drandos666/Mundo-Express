@@ -32,7 +32,7 @@ formulario.addEventListener('submit',function(e){
     console.log(datos.get('color'))
     console.log(datos.get('tel'))
 
-    fetch('../imp_formulario.php',{
+    fetch('../print_f.php',{
         method: 'POST',
         body: datos
     } )

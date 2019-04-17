@@ -48,7 +48,7 @@
         <p><input type="button" value="Imprir esta pagina" onclick="window.print()"></p>          
         <p><a href="index.html">Volver al Formulario</a></p>
         </div>
-    <LINK REL=StyleSheet HREF="css/skin_formulario.css">
+    <LINK REL=StyleSheet HREF="css/skin_print_f.css">
 
 
 
