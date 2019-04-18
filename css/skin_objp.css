@@ -48,7 +48,7 @@ a:hover{
     background:rgb(219, 184, 30); 
     cursor: pointer;
 }
-.tarifa {
+.proibido {
     margin: 24px;
     border: 7px solid rgb(43, 41, 41);/*poner borde y color a elemento */
     padding: 40px 80px 20px;
@@ -58,41 +58,18 @@ a:hover{
     left: 22%; 
     border-radius: 80px 80px 80px 80px;/*poner borde redondeado a elemento*/
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
-    background-image:url(../img/7.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/1.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
-    background-position: left;/*deja el fondo centrado*/
+    background-position: right;/*deja el fondo centrado*/
+    background-attachment: fixed;
     font-size: 18px;
     text-align : justify;
     color: white;
-    text-indent: 50px;
 }
-table{
-    border: 7px solid black;/*poner borde y color a elemento */
-    background-position: left;/*deja el fondo centrado*/
-    background-image:url(../img/7_3.jpg);
-    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
-    font-size: 18px;
-    border-collapse: collapse;
+h3 {
     text-align: center;
-    color: rgb(255, 255, 255);
-    left: 240px;
-    background-repeat: no-repeat;
+    color: black;
 }
-table td{
-    border: 4px solid black;
-    padding: 20px;
+ul{
+    list-style-type: square;
 }
-.tarifa table strong{
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-}
-table tr:hover{
-    background-image:url(../img/10.jpg);
-    background-position: center;
-}
-table td:hover{
-    background-image:url(../img/10.jpg);
-    background-position: right;
-    color: rgb(192, 145, 240);
-}
-

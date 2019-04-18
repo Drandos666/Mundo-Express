@@ -17,8 +17,11 @@
     <br><br>
     <p>
         <h3>Envios Nacionales</h3>
-    Nuestros envios a nivel Nacional son hechos de dos maneras; cliente <label class="vip">VIP</label> (tienen una
-     membrecía mensual) y el <label class="comun">común</label>, la diferencia entre estos son:<br><br>
+    <div class="parrafo" > 
+        Nuestros envios a nivel Nacional son hechos de dos maneras; cliente <label class="vip">VIP</label> (tienen una
+         membrecía mensual) y el <label class="comun">común</label>, la diferencia entre estos son:<br><br>
+
+    </div>
 
     <div class="comun">Envío Cliente común:<br></div><br>
     <label class="negrita">Vía Terrestre: </label>
@@ -29,14 +32,15 @@
 
     <div class="vip">Envío Cliente VIP:<br></div><br>
     <label class="negrita">Vía Aérea:</label> El envío se hace en horas específicas y puede tardar, mínimo  6 horas
-     y máximo un día <label class="alerta">(peso máximo de paquete hasta 3kg)</label>.<br>
+    y máximo un día <label class="alerta">(peso máximo de paquete hasta 3kg)</label>.<br>
     <label class="negrita">Vía Marítima:</label>  El envío se hace en horas específicas y puede tardar, mínimo 12 
     horas y máximo 2 días.<br><br>
 
     <h3>Envios Internacionales</h3>
+    <div class="parrafo"> 
     Nuestros envíos Internacionales también cuentan con dos modalidades, aparte de
-     tener casilleros en EE.UU., España y Japón.<br><br>
-
+    tener casilleros en EE.UU., España y Japón.<br><br>
+    </div>
      <div class="comun">Envío Cliente común:<br></div><br>
     <label class="negrita">Vía Aérea:</label> Tarda dependiendo del lugar a entregar el paquete (sin contar aduanas),
      mínimo 2 días y máximo 3 días <label class="alerta">(peso máximo de paquete hasta 4kg)</label>.<br>

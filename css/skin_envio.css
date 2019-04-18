@@ -65,6 +65,7 @@ a:hover{
     text-align : justify;
     color: black;
     background-attachment: fixed;
+    
 }
 .comun {
     color: blueviolet
@@ -80,4 +81,7 @@ h3{
 }
 .alerta{
     color: #f70404;
+}
+.parrafo {
+    text-indent: 50px;
 }

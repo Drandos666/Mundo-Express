@@ -9,7 +9,7 @@
 </head>
 <body>
     <img src="img/logo.jpg" >
-    <div class= "portada"><h2><br>Tarifas de el Dia por cada Envio <strong>Mundo Express</strong><br></h2></div>
+    <div class= "portada"><h2><br>Tarifas de el Dia por cada Envio en <strong>Mundo Express</strong><br></h2></div>
     <div class="inicio"><a href="Index.php">Volver a la Pagina Principal</a> </div>
     <div class="tarifa">
     <p>

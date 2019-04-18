@@ -48,51 +48,70 @@ a:hover{
     background:rgb(219, 184, 30); 
     cursor: pointer;
 }
-.tarifa {
+form {
     margin: 24px;
-    border: 7px solid rgb(43, 41, 41);/*poner borde y color a elemento */
-    padding: 40px 80px 20px;
+    border: 7px solid black;/*poner borde y color a elemento */
+    padding: 40px 40px 20px;
     position: absolute;
     width: 450px;
     top:200px;/*distancia de el tope superior de la pantalla*/
-    left: 22%; 
+    left: 27%; 
     border-radius: 80px 80px 80px 80px;/*poner borde redondeado a elemento*/
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
-    background-image:url(../img/7.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/3.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
-    background-position: left;/*deja el fondo centrado*/
+    background-position: right;/*deja el fondo centrado*/
+    background-attachment: fixed;
     font-size: 18px;
-    text-align : justify;
-    color: white;
-    text-indent: 50px;
 }
-table{
-    border: 7px solid black;/*poner borde y color a elemento */
-    background-position: left;/*deja el fondo centrado*/
-    background-image:url(../img/7_3.jpg);
-    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
-    font-size: 18px;
-    border-collapse: collapse;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    left: 240px;
-    background-repeat: no-repeat;
+input, textarea, option {    
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 15px ;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 10px  rgba(0, 0, 0, 0.822);
 }
-table td{
-    border: 4px solid black;
-    padding: 20px;
+input:focus, textarea:focus{
+    border: 1px solid #163ab1;
 }
-.tarifa table strong{
-    font-size: 18px;
-    color: rgb(0, 0, 0);
+input[type="submit"] {
+    margin-bottom: 0;
+    background: #163ab1;
+    color: #fff;
+    border: 2px;
+    padding: 10px;
+    border-radius: 100px 40px 100px 40px;
+    box-shadow:none;     
 }
-table tr:hover{
-    background-image:url(../img/10.jpg);
-    background-position: center;
+input[type="submit"]:hover{
+    background: #68c1eb; 
+    cursor: pointer;
 }
-table td:hover{
-    background-image:url(../img/10.jpg);
-    background-position: right;
-    color: rgb(192, 145, 240);
+input[type="reset"] {
+    margin-bottom: 0;
+    background: #fff;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius:0%;
+    box-shadow:none;
 }
-
+input[type="reset"]:hover{
+    background: #f70404; 
+    cursor: pointer;
+}
+input[type="radio"]{
+    box-shadow:none;
+    margin:none;   
+}
+:placeholder-shown {
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form a {
+    width: 425px;
+}

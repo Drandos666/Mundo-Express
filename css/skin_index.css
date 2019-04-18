@@ -68,11 +68,13 @@ a:hover{
     background-image:url(../img/6.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
+    text-indent: 50px;
 }
-h3{
+.net h3{
     font-size: 23px;
     text-align: center;
     color: rgb(44, 209,5);
+    text-indent:none;
 }
 .net_2 {
     border: 7px solid black;/*poner borde y color a elemento */
@@ -89,11 +91,13 @@ h3{
     background-image:url(../img/9.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: left;/*deja el fondo centrado*/
+    text-indent: 50px;
 }
 .net_2 h3 {
     font-size: 23px;
     text-align: center;
     color: rgb(0, 0, 0);
+    text-indent: none;
 }
 table{
     border: 7px solid black;/*poner borde y color a elemento */
