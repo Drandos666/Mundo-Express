@@ -93,11 +93,47 @@ h3{
     border-radius: 200px 0px 200px 0px;/*poner borde redondeado a elemento*/
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
     font-size: 18px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align : justify;
-    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-image:url(../9.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: left;/*deja el fondo centrado*/
+    
 
 
+}
+.net_2 h3 {
+    font-size: 23px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+table{
+    border: 7px solid black;/*poner borde y color a elemento */
+    background-position: left;/*deja el fondo centrado*/
+    background-image:url(../4.jpg);
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    font-size: 18px;
+    border-collapse: collapse;
+    text-align: center;
+    color: black;
+}
+table td{
+    border: 4px solid black;
+    padding: 20px;
+}
+
+.net_2 table strong{
+    font-size: 18px;
+
+    color: rgb(0, 0, 0);
+}
+
+table tr:hover{
+    background-image:url(../4.jpg);
+    background-position: left;
+}
+table td:hover{
+    background-image:url(../4.jpg);
+    background-position: center;
+    color: white;
 }

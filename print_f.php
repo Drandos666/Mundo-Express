@@ -45,7 +45,7 @@
         echo "<br/>";
     }
         ?> 
-        <p><input type="button" value="Imprir el Formulario" onclick="window.print()"></p>          
+        <p><input type="button" value="Imprimir el Formulario" onclick="window.print()"></p>          
         <p><a href="formulario.html">Volver al Formulario</a></p>
         <p><a href="Index.php">Volver a la Pagina Principal</a></p>
         </div>

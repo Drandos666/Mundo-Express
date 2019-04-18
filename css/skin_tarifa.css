@@ -1,0 +1,97 @@
+body{
+    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    background-attachment: fixed;
+}
+.portada{
+    color: rgb(247, 248, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px white;
+    width: 80%;
+    text-align: center;
+    float: left;
+    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    font-size: 21px;
+}
+strong{
+    color: rgb(44, 209,5);
+}
+img {
+    height: 20%;
+    width: 20%;
+    float: left;
+}
+.inicio {
+    width: 30%;
+}
+a{
+    margin-bottom: 0;
+    background: rgb(221, 146, 8);
+    color: black;
+    border: 2px ;
+    border-radius: 120px 0px 119px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    display: block;
+    font-size: 15px;
+    box-shadow:none;   
+    width: 192px;
+    float: left;
+}
+a:hover{
+    background:rgb(219, 184, 30); 
+    cursor: pointer;
+}
+.tarifa {
+    margin: 24px;
+    border: 7px solid rgb(43, 41, 41);/*poner borde y color a elemento */
+    padding: 40px 80px 20px;
+    position: absolute;
+    width: 450px;
+    top:200px;/*distancia de el tope superior de la pantalla*/
+    left: 22%; 
+    border-radius: 80px 80px 80px 80px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    background-image:url(../7.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: left;/*deja el fondo centrado*/
+    font-size: 18px;
+    text-align : justify;
+    color: white;
+}
+table{
+    border: 7px solid black;/*poner borde y color a elemento */
+    background-position: left;/*deja el fondo centrado*/
+    background-image:url(../7_3.jpg);
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    font-size: 18px;
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    left: 240px;
+    background-repeat: no-repeat;
+}
+table td{
+    border: 4px solid black;
+    padding: 20px;
+}
+.tarifa table strong{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+table tr:hover{
+    background-image:url(../10.jpg);
+    background-position: center;
+}
+table td:hover{
+    background-image:url(../10.jpg);
+    background-position: right;
+    color: rgb(192, 145, 240);
+}
+

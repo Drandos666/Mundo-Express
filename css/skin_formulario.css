@@ -4,6 +4,7 @@ body{
     background-position: center;/*deja el fondo centrado*/
     background-attachment: fixed;
 }
+
 .portada{
     color: rgb(247, 248, 247);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
