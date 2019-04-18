@@ -1,10 +1,9 @@
 body{
-    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
     background-attachment: fixed;
 }
-
 .portada{
     color: rgb(247, 248, 247);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -12,7 +11,7 @@ body{
     width: 80%;
     text-align: center;
     float: left;
-    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
     font-size: 21px;
@@ -21,14 +20,11 @@ body{
 strong{
     color: rgb(44, 209,5);
 }
-
 img {
     height: 20%;
     width: 20%;
     float: left;
-      
 }
-
 .lista{
     border: 7px solid black;/*poner borde y color a elemento */
     padding: 35px 40px 25px;/*establece el area de relleno*/
@@ -38,7 +34,6 @@ img {
     border-radius: 0px 200px 0px 200px;/*poner borde redondeado a elemento*/
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
 }
-
 a{
     margin-bottom: 0;
     background: rgb(221, 146, 8);
@@ -54,12 +49,10 @@ a{
     display: block;
     font-size: 20px;
 }
-
 a:hover{
     background:rgb(219, 184, 30); 
     cursor: pointer;
 }
-
 .net{
     border: 7px solid black;/*poner borde y color a elemento */
     padding: 45px ;/*establece el area de relleno*/
@@ -72,17 +65,15 @@ a:hover{
     font-size: 18px;
     color: black;
     text-align : justify;
-    background-image:url(../6.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/6.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
 }
-
 h3{
     font-size: 23px;
     text-align: center;
     color: rgb(44, 209,5);
 }
-
 .net_2 {
     border: 7px solid black;/*poner borde y color a elemento */
     padding: 45px ;/*establece el area de relleno*/
@@ -95,12 +86,9 @@ h3{
     font-size: 18px;
     color: rgb(255, 255, 255);
     text-align : justify;
-    background-image:url(../9.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/9.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: left;/*deja el fondo centrado*/
-    
-
-
 }
 .net_2 h3 {
     font-size: 23px;
@@ -110,7 +98,7 @@ h3{
 table{
     border: 7px solid black;/*poner borde y color a elemento */
     background-position: left;/*deja el fondo centrado*/
-    background-image:url(../4.jpg);
+    background-image:url(../img/4.jpg);
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
     font-size: 18px;
     border-collapse: collapse;
@@ -121,19 +109,16 @@ table td{
     border: 4px solid black;
     padding: 20px;
 }
-
 .net_2 table strong{
     font-size: 18px;
-
     color: rgb(0, 0, 0);
 }
-
 table tr:hover{
-    background-image:url(../4.jpg);
+    background-image:url(../img/4.jpg);
     background-position: left;
 }
 table td:hover{
-    background-image:url(../4.jpg);
+    background-image:url(../img/4.jpg);
     background-position: center;
     color: white;
 }

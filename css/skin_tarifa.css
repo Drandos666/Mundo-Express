@@ -1,5 +1,5 @@
 body{
-    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
     background-attachment: fixed;
@@ -11,7 +11,7 @@ body{
     width: 80%;
     text-align: center;
     float: left;
-    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
     font-size: 21px;
@@ -58,7 +58,7 @@ a:hover{
     left: 22%; 
     border-radius: 80px 80px 80px 80px;/*poner borde redondeado a elemento*/
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
-    background-image:url(../7.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/7.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: left;/*deja el fondo centrado*/
     font-size: 18px;
@@ -68,7 +68,7 @@ a:hover{
 table{
     border: 7px solid black;/*poner borde y color a elemento */
     background-position: left;/*deja el fondo centrado*/
-    background-image:url(../7_3.jpg);
+    background-image:url(../img/7_3.jpg);
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
     font-size: 18px;
     border-collapse: collapse;
@@ -86,11 +86,11 @@ table td{
     color: rgb(0, 0, 0);
 }
 table tr:hover{
-    background-image:url(../10.jpg);
+    background-image:url(../img/10.jpg);
     background-position: center;
 }
 table td:hover{
-    background-image:url(../10.jpg);
+    background-image:url(../img/10.jpg);
     background-position: right;
     color: rgb(192, 145, 240);
 }

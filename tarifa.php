@@ -8,18 +8,15 @@
     <LINK REL=StyleSheet HREF="css/skin_tarifa.css">
 </head>
 <body>
-    <img src="logo.jpg" >
+    <img src="img/logo.jpg" >
     <div class= "portada"><h2><br>Tarifas de el Dia por cada Envio <strong>Mundo Express</strong><br></h2></div>
     <div class="inicio"><a href="Index.php">Volver a la Pagina Principal</a> </div>
-    
-    
     <div class="tarifa">
     <p>
     Nuestros envíos tienen un costo de paquete por peso, 
     este costara dependiendo del margen de peso en que este dicho paquete 
     (Este será contado por cada 100 gramos):
     </p>
-
     <table>
             <tr>
                 <td><p><strong>Peso<strong><p></td>

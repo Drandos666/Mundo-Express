@@ -1,13 +1,5 @@
-php
-    <img src="logo.jpg" >
-    <div class= "portada"><h2><br>El Mundo Mas Cerca De <strong>T�</strong><br></h2></div>
-    <a href="Index.php">Volver a la Pagina Principal</a>
-
-
-
-css
 body{
-    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
     background-attachment: fixed;
@@ -19,7 +11,7 @@ body{
     width: 80%;
     text-align: center;
     float: left;
-    background-image:url(../4.jpg);/*agrega imagen de fondo*/
+    background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
     font-size: 21px;
@@ -27,15 +19,14 @@ body{
 strong{
     color: rgb(44, 209,5);
 }
-
 img {
     height: 20%;
     width: 20%;
     float: left;
 }
-
-
-
+.inicio {
+    width: 30%;
+}
 a{
     margin-bottom: 0;
     background: rgb(221, 146, 8);
@@ -53,11 +44,40 @@ a{
     width: 192px;
     float: left;
 }
-
 a:hover{
     background:rgb(219, 184, 30); 
     cursor: pointer;
 }
-
-
-
+.envio {
+    margin: 24px;
+    border: 7px solid rgb(43, 41, 41);/*poner borde y color a elemento */
+    padding: 40px 80px 20px;
+    position: absolute;
+    width: 450px;
+    top:200px;/*distancia de el tope superior de la pantalla*/
+    left: 22%; 
+    border-radius: 80px 80px 80px 80px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    background-image:url(../img/12.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: right;/*deja el fondo centrado*/
+    font-size: 18px;
+    text-align : justify;
+    color: black;
+    background-attachment: fixed;
+}
+.comun {
+    color: blueviolet
+}
+.vip {
+    color: rgb(255, 217, 0)
+}
+h3{
+    text-align: center;
+}
+.negrita {
+    font-weight: bolder;
+}
+.alerta{
+    color: #f70404;
+}

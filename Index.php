@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mundo Express | ME</title>
-    <LINK REL=StyleSheet HREF="css/skin_html.css">
+    <LINK REL=StyleSheet HREF="css/skin_index.css">
 </head>
 <body>
  
-    <img src="logo.jpg" >
+    <img src="img/logo.jpg" >
 
     <div class= "portada"><h2><br>El Mundo Mas Cerca De <strong>Tí</strong><br></h2></div>
 
@@ -18,7 +18,7 @@
         <a href="formulario.html">Ingresar</a><br><br><br>
         <a href="formulario.html">Inscribirse</a><br><br><br>
         <a href="tarifa.php">Tarifas</a><br><br><br>
-        <a href="formulario.html">Modo de Envio</a><br><br><br>        
+        <a href="envio.php">Modo de Envio</a><br><br><br>        
         <a href="formulario.html">Inscribirse</a><br><br><br>
         <a href="https://www.facebook.com/Mundo-Express-388771155312220/">Pag. de FaceBook</a><br><br><br>
         <br><br><br><br>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Formulario Respondido</title>
+    <title>Formulario Respondido | ME</title>
     <div class="print"> 
     <?php
         $nom=$_POST['nom'];
@@ -57,8 +57,8 @@
 
 </head>
 <body>
-<img src="logo.jpg" >
-    <div class= "portada"><h2><br>Sus Datos Captados para la inscripcion Fueron: <strong></strong><br></h2></div>
+<img src="img/logo.jpg" >
+    <div class= "portada"><h2><br>Sus Datos Captados para la inscripcion <strong>Fueron:</strong><br></h2></div>
 </body>
 
 </html>
