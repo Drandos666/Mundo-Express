@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Onjetos Proibidos | ME</title>
     <LINK REL=StyleSheet HREF="css/skin_objp.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><!-- importa iconos utilizado para botones -->
 </head>
 <body>
     <img src="img/logo.jpg" >
     <div class= "portada"><h2><br>Objetos que No se Pueden Enviar por <strong>Mundo Express</strong><br></h2></div>
-    <div class="inicio"><a href="Index.php">Volver a la Pagina Principal</a> </div>
+    <div class="inicio"><a href="Index.php"><i class="fas fa-home"></i> Volver a la Pagina Principal</a> </div>
     <div class="proibido">
     <p>
     <h3>Nos abstenemos a transportar paquetes que contengan:</h3>

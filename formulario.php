@@ -7,12 +7,13 @@
     <title>Formulario De Inscripcion | ME</title>
     <SCRIPT SRC="js/app.js"></SCRIPT>
     <LINK REL=StyleSheet HREF="css/skin_formulario.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><!-- importa iconos utilizado para botones -->
 </head>
 <body>       
     <?php include_once 'LinkBDD/app.php';?>
     <img src="img/logo.jpg" >
     <div class= "portada"><h2><br>Formulario de Inscripcion para <strong>Mundo Express</strong><br></h2></div>
-    <a href="Index.php">Volver a la Pagina Principal</a>
+    <a href="Index.php"><i class="fas fa-home"></i> Volver a la Pagina Principal</a>
     <form method="POST" action="print_f.php">
         <label> Nombre: <div class="punto">(*)</div></label> <br />
             <input type="text" id="nom" name="nom" size="40" placeholder="Primer Nombre" required /> <br />

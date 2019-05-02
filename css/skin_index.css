@@ -30,7 +30,7 @@ img {
     padding: 35px 40px 25px;/*establece el area de relleno*/
     position: absolute;/*centrar el elemento*/
     top:200px;/*distancia de el tope superior de la pantalla*/
-    left: 9%;/*distancia que se aleja a la izquierda de la pantalla*/
+    left: 6%;/*distancia que se aleja a la izquierda de la pantalla*/
     border-radius: 0px 200px 0px 200px;/*poner borde redondeado a elemento*/
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
 }

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mundo Express | ME</title>
     <LINK REL=StyleSheet HREF="css/skin_index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><!-- importa iconos utilizado para botones -->
 </head>
 <body>
  
@@ -15,12 +16,12 @@
 
     <div class="lista" >
         <p><br><br><br><br><br>
-        <a href="ingreso.php">Ingresar</a><br><br><br>
-        <a href="formulario.php">Inscribirse</a><br><br><br>
-        <a href="tarifa.php">Tarifas</a><br><br><br>
-        <a href="envio.php">Modo de Envio</a><br><br><br>        
-        <a href="objp.php">Objetos Proibidos</a><br><br><br>
-        <a href="https://www.facebook.com/Mundo-Express-388771155312220/">Pag. de FaceBook</a><br><br><br>
+        <a href="ingreso.php"><i class="fas fa-sign-in-alt"></i> Ingresar</a><br><br><br>
+        <a href="formulario.php"><i class="fas fa-address-book"></i> Inscribirse</a><br><br><br>
+        <a href="tarifa.php"><i class="fas fa-money-check-alt"></i> Tarifas</a><br><br><br>
+        <a href="envio.php"><i class="fas fa-car-side"></i> Modo de Envio</a><br><br><br>        
+        <a href="objp.php"><i class="fas fa-exclamation-triangle"></i> Objetos Proibidos</a><br><br><br>
+        <a href="https://www.facebook.com/Mundo-Express-388771155312220/"><i class="fab fa-facebook"></i> Pag. de FaceBook</a><br><br><br>
         <br><br><br><br>
     </div>
     
