@@ -2,8 +2,15 @@
 <html lang="en">
 <head>
     <title>Formulario Respondido | ME</title>
+    <LINK REL=StyleSheet HREF="css/skin_print_f.css">
+
+</head>
+<body>
+    <img src="img/logo.jpg" >
+    <div class= "portada"><h2><br>Sus Datos Captados para la inscripcion <strong>Fueron:</strong><br></h2></div>
     <div class="print"> 
     <?php
+        include_once 'LinkBDD/app.php';
         $nom=$_POST['nom'];
         $ape=$_POST['ape'];
         $fecha=$_POST['fecha'];
@@ -11,12 +18,9 @@
         $e=$_POST['e'];
         $pass=$_POST['pass'];
         $tel=$_POST['tel'];
-        $color=$_POST['color'];
+        $sexo=$_POST['sexo'];
         $mens=$_POST['mens'];
         $dire=$_POST['dire'];
-    if ($nom===''||$ape===''||$fecha===''||$edad===''||$e===''||$pass===''||$tel===''||$dire===''){
-        echo json_encode ("LLena todos los campos marcados con (*)");
-    }else{
         echo "Nombre: $nom";
         echo "<br/>";
         echo "Apellido: $ape";
@@ -35,31 +39,15 @@
         echo "<br/>";        
         echo "Mensaje: $mens";
         echo "<br/>";
-        echo "Color Favorito: $color";
+        echo "Sexo: $sexo";
         echo "<br/>";
-        $hm = $_REQUEST['hm'];
+        echo "<br/>";
         ?>
-        <?php if($hm == 'h') echo 'Sexo: Hombre'  ?> 
-        <?php if($hm == 'm') echo 'Sexo: Mujer' ?> 
-        <?php
-        echo "<br/>";
-    }
-        ?> 
         <p><input type="button" value="Imprimir el Formulario" onclick="window.print()"></p>          
-        <p><a href="formulario.html">Volver al Formulario</a></p>
         <p><a href="Index.php">Volver a la Pagina Principal</a></p>
-        </div>
-    <LINK REL=StyleSheet HREF="css/skin_print_f.css">
+    </div>
 
 
-
-
-
-</head>
-<body>
-<img src="img/logo.jpg" >
-    <div class= "portada"><h2><br>Sus Datos Captados para la inscripcion <strong>Fueron:</strong><br></h2></div>
 </body>
-
 </html>
 

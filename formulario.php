@@ -9,13 +9,11 @@
     <LINK REL=StyleSheet HREF="css/skin_formulario.css">
 </head>
 <body>       
+    <?php include_once 'LinkBDD/app.php';?>
     <img src="img/logo.jpg" >
     <div class= "portada"><h2><br>Formulario de Inscripcion para <strong>Mundo Express</strong><br></h2></div>
     <a href="Index.php">Volver a la Pagina Principal</a>
-    <form method="post" action="print_f.php">
-    <form method='post' name='form' onSubmit="obtenerDatos(this)">
-    <div class="mt-3" id="respuesta"></div>    
-    <form> 
+    <form method="POST" action="print_f.php">
         <label> Nombre: <div class="punto">(*)</div></label> <br />
             <input type="text" id="nom" name="nom" size="40" placeholder="Primer Nombre" required /> <br />
         <label> Apellido: <div class="punto">(*)</div></label> <br />
@@ -34,21 +32,12 @@
             <textarea id="dire" name="dire" placeholder="Escriba su Direccion..."></textarea>
         <label>Mensaje: </label> <br />
             <textarea id="mens" name="mens" placeholder="Escriba su Mensaje..."></textarea>           
-        <label>Color Favorito: </label>  <br />
-            <select  id="color" name="color" >
+        <label>Sexo: </label>  <br />
+            <select  id="sexo" name="sexo" >
                 <option selected>...</option>
-                <option value="Verde">Verde</option>
-                <option value="Azul">Azul</option>
-                <option value="Rojo">Rojo</option>
-                <option value="Morado">Morado</option>
-                <option value="Negro">Negro</option>
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
             </select><br />
-        <label>Sexo: <div class="punto">(*)</div></label>             
-        <div class="sexo"> 
-            <label>
-            Hombre<input type="radio" id="hm" name="hm" value="h"> 
-            Mujer<input type="radio" id="hm" name="hm" value="m">
-            </label>
         </div><br />            
         <div class="alerta">
         <p> Campos con (*) son Obligatorios </p>

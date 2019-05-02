@@ -16,7 +16,7 @@
     <div class="lista" >
         <p><br><br><br><br><br>
         <a href="ingreso.php">Ingresar</a><br><br><br>
-        <a href="formulario.html">Inscribirse</a><br><br><br>
+        <a href="formulario.php">Inscribirse</a><br><br><br>
         <a href="tarifa.php">Tarifas</a><br><br><br>
         <a href="envio.php">Modo de Envio</a><br><br><br>        
         <a href="objp.php">Objetos Proibidos</a><br><br><br>
@@ -49,7 +49,7 @@
         <h3>¿Que son los Cuys Token?</h3>
         <p>Mundo Express posee su propia moneda de descuentos llamada Cuys Token, 
             cada moneda por separado tendrá un 5% de descuento, pero a la hora de sumarse
-             con otras este porcentaje será mayor con su bono.<br> Estas monedas son sorteadas 
+             con otras este porcentaje será mayor con su bono.<br><br>Estas monedas son sorteadas 
              a la hora de afiliarse a nuestra página web y seguirnos en nuestras
               redes sociales, aparte por nuestras redes serán sorteadas cada
              cierto tiempo más monedas de descuento
