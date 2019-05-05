@@ -1,0 +1,68 @@
+body{
+    background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    background-attachment: fixed;
+}
+.portada{
+    color: rgb(247, 248, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px white;
+    width: 80%;
+    text-align: center;
+    float: left;
+    background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    font-size: 21px;
+}
+strong{
+    color: rgb(44, 209,5);
+}
+img {
+    height: 20%;
+    width: 20%;
+    float: left;
+}
+.inicio {
+    width: 30%;
+}
+a{
+    margin-bottom: 0;
+    background: rgb(221, 146, 8);
+    color: black;
+    border: 2px ;
+    border-radius: 120px 0px 119px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    display: block;
+    font-size: 15px;
+    box-shadow:none;   
+    width: 192px;
+    float: left;
+}
+a:hover{
+    background:rgb(219, 184, 30); 
+    cursor: pointer;
+}
+.fin {
+    margin: 24px;
+    border: 7px solid rgb(43, 41, 41);/*poner borde y color a elemento */
+    padding: 40px 80px 20px;
+    position: absolute;
+    width: 450px;
+    top:200px;/*distancia de el tope superior de la pantalla*/
+    left: 22%; 
+    border-radius: 80px 80px 80px 80px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    background-image:url(../img/2.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: right;/*deja el fondo centrado*/
+    font-size: 18px;
+    text-align : justify;
+    color: white;
+    text-indent: 50px;
+}

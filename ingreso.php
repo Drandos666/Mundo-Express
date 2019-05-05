@@ -42,9 +42,17 @@
     }
 
     if( password_verify( $pass , $result_ve['senha']) ){
-        $_SESSION['admin'] = $result_ve['Nombre'];
+        $_SESSION['admin'] = $result_ve['Nombre'].' '.$result_ve['Apellido'] ;
+        $_SESSION['token'] = $result_ve['Edad'];
+        $_SESSION['Nombre'] = $result_ve['Nombre'];
+        $_SESSION['Apellido'] = $result_ve['Apellido'];
+        $_SESSION['id'] = $result_ve['id'];
+        $_SESSION['Edad'] = $result_ve['Edad'];
+        $_SESSION['Fecha'] = $result_ve['Fecha'];
+        $_SESSION['Telefono'] = $result_ve['Telefono'];
+        $_SESSION['Direccion'] = $result_ve['Direccion'];
         header('Location: perfil.php');
-
+        
     }else{
         echo '<h3>¡Contraseña Erronea!';
         die();

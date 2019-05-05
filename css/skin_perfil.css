@@ -58,4 +58,54 @@ a:hover{
     background:rgb(219, 184, 30); 
     cursor: pointer;
 }
-
+.usuario{
+    border: 7px solid black;/*poner borde y color a elemento */
+    padding: 45px ;/*establece el area de relleno*/
+    position: absolute;/*centrar el elemento*/
+    width: 45%;
+    top:200px;/*distancia de el tope superior de la pantalla*/
+    left: 2%;/*distancia que se aleja a la izquierda de la pantalla*/
+    border-radius: 0px 200px 0px 200px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    font-size: 18px;
+    color: black;
+    text-align : justify;
+    background-image:url(../img/6.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    text-indent: 50px;
+}
+.cuy{
+    border: 7px solid black;/*poner borde y color a elemento */
+    padding: 45px ;/*establece el area de relleno*/
+    position: absolute;/*centrar el elemento*/
+    width: 30%;
+    top:200px;/*distancia de el tope superior de la pantalla*/
+    left: 60%;/*distancia que se aleja a la izquierda de la pantalla*/
+    border-radius: 150px 150px 150px 150px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    font-size: 18px;
+    color: black;
+    text-align : center;
+    background-image:url(../img/6.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    text-indent: 50px;
+}
+.rastreo{
+    border: 7px solid black;/*poner borde y color a elemento */
+    padding: 45px ;/*establece el area de relleno*/
+    position: absolute;/*centrar el elemento*/
+    width: 80%;
+    top:500px;/*distancia de el tope superior de la pantalla*/
+    left: 2%;/*distancia que se aleja a la izquierda de la pantalla*/
+    border-radius: 200px 0px 200px 0px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    font-size: 18px;
+    color: black;
+    text-align : justify;
+    background-image:url(../img/6.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    text-indent: 50px;
+}
