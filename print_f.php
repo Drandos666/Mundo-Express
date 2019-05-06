@@ -61,6 +61,7 @@
         }
         ?>
         <p><input type="button" value="Imprimir el Formulario" onclick="window.print()"></p>          
+        <a href="ingreso.php"><i class="fas fa-sign-in-alt"></i> Ingresar</a>
         <p><a href="Index.php"><i class="fas fa-home"></i> Volver a la Pagina Principal</a></p>
         
     </div>

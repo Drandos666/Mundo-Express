@@ -60,7 +60,7 @@ a:hover{
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
     background-image:url(../img/2.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
-    background-position: right;/*deja el fondo centrado*/
+    background-position: center;/*deja el fondo centrado*/
     font-size: 18px;
     text-align : justify;
     color: white;

@@ -43,7 +43,7 @@
 
     if( password_verify( $pass , $result_ve['senha']) ){
         $_SESSION['admin'] = $result_ve['Nombre'].' '.$result_ve['Apellido'] ;
-        $_SESSION['token'] = $result_ve['Edad'];
+        $_SESSION['token'] = $result_ve['kuy'];
         $_SESSION['Nombre'] = $result_ve['Nombre'];
         $_SESSION['Apellido'] = $result_ve['Apellido'];
         $_SESSION['id'] = $result_ve['id'];

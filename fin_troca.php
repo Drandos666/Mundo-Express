@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <META HTTP-EQUIV="REFRESH" CONTENT="5;URL=ingreso.php"> 
     <LINK REL=StyleSheet HREF="css/skin_edit.css">
-    <title>Edicion Completada</title>
+    <title>Edicion Completada | ME</title>
 </head>
 <body>
     <img src="img/logo.jpg" >
-    <div class= "portada"><h2><br>Salida a Pagina Pricipal de <strong>Mundo Express</strong><br></h2></div>
+    <div class= "portada"><h2><br>Salida a Pagina Ingresar de <strong>Mundo Express</strong><br></h2></div>
     
     
 <div class="fin">
