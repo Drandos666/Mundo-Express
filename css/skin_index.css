@@ -2,7 +2,7 @@ body{
     background-image:url(../img/4.jpg);/*agrega imagen de fondo*/
     background-repeat: no-repeat;/*no repite el fondo*/
     background-position: center;/*deja el fondo centrado*/
-    background-attachment: fixed;
+    background-attachment: fixed;/*deja fondo fijado*/
 }
 .portada{
     color: rgb(247, 248, 247);
@@ -34,11 +34,11 @@ img {
     border-radius: 0px 200px 0px 200px;/*poner borde redondeado a elemento*/
     box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
 }
-a{
+a{  
+    border: 2px solid orange;
     margin-bottom: 0;
     background: rgb(221, 146, 8);
     color: black;
-    border: 2px;
     padding: 10px;
     border-radius: 120px 0px 119px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

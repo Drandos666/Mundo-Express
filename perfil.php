@@ -22,7 +22,7 @@ if( isset($_SESSION['admin']) ){
     <ul>
         <li> <a href="Index.php"><i class="fas fa-home"></i> Volver a la Pagina Principal</a> </li>
         <li> <a href="trocaperfil.php"><i class="fas fa-user-edit"></i> Cambiar Datos de Usuario</a></li>
-        <li>  <a href="fin_ing.php"><i class="fas fa-door-open"></i> Cerrar Sección</a></li>
+        <li> <a href="javascript:if (confirm('¿Seguro que quiere Cerrar Secion?')) {parent.location='fin_ing.php';};"><i class="fas fa-door-open"></i> Cerrar Sección</a></li>
     </ul>
     </div>
     <div class='usuario'>
@@ -40,8 +40,8 @@ if( isset($_SESSION['admin']) ){
     <div class='rastreo'>
     <h3>Rastreo del Envio</h3>
     <p><br><br><br><br><br><br><br>
-         1.Recepción del Paquete<i class="fas fa-check-circle"></i><br>
-        2.Envalaje de el Paquete <i class="fas fa-check-circle"></i><br>
+        1.Recepción del Paquete<i class="fas fa-check-circle"></i><br>
+        2.Envalaje de el Paquete <i class="far fa-check-circle"></i><br>
         3.Transporte de el Paquete<i class="far fa-check-circle"></i><br>
         4.Llegada a Surcursal de Destino<i class="far fa-check-circle"></i><br>
         5.Revisión de el Estado del Paquete<i class="far fa-check-circle"></i><br>

@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><!-- importa iconos utilizado para botones -->
 </head>
 <body>
- 
+    
     <img src="img/logo.jpg" >
 
     <div class= "portada"><h2><br>El Mundo Mas Cerca De <strong>Tí</strong><br></h2></div>
-
+    <h4>
+    <script>
+    alert('¡Gracias por Ingresar a Mundo Express!');
+    function makeArray(){for(i=0;i<makeArray.arguments.length;i++)this[i+1]=makeArray.arguments[i]}var months=new makeArray('Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');var date=new Date();var day=date.getDate();var month=date.getMonth()+1;var yy=date.getYear();var year=(yy<1000)?yy+1900:yy;document.write("Hoy es "+day+ " de "+months[month]+" del "+year);
+    </script>
+    </h4>
     <div class="lista" >
         <p><br><br><br><br><br>
         <a href="ingreso.php"><i class="fas fa-sign-in-alt"></i> Ingresar</a><br><br><br>

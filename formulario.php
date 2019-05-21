@@ -43,7 +43,7 @@
         <div class="alerta">
         <p> Campos con (*) son Obligatorios </p>
         </div> <br />
-            <input type="submit" name="envio" value="Enviar">
+            <input type="submit" name="envio" onclick="javascript:alert('Datos captados con exito!!');" value="Enviar">
 
             <input type="reset" value="Borrar"> 
         </p>

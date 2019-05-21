@@ -8,7 +8,7 @@
 </head>
 <body>
     <img src="img/logo.jpg" >
-    <div class= "portada"><h2><br>Sus Datos Captados para la inscripcion <strong>Fueron:</strong><br></h2></div>
+    <div class= "portada"><h2><br>Los Datos Captados para la Inscripcion <strong>Fueron:</strong><br></h2></div>
     <div class="print"> 
     <?php
         include_once 'LinkBDD/app.php';

@@ -36,11 +36,13 @@
     $s_verificar->execute(array($e));
     $result_ve=$s_verificar->fetch();
     if(!$result_ve){
-        //matar la operación
-        echo '<h3>¡Usuario No Registrado!</h3>';      
-        die();
+        ?>
+        <script>
+        alert('¡Usuario No Registrado!');
+        </script>
+        <?php    
+        die();//matar la operación
     }
-
     if( password_verify( $pass , $result_ve['senha']) ){
         $_SESSION['admin'] = $result_ve['Nombre'].' '.$result_ve['Apellido'] ;
         $_SESSION['token'] = $result_ve['kuy'];
@@ -52,13 +54,15 @@
         $_SESSION['Telefono'] = $result_ve['Telefono'];
         $_SESSION['Direccion'] = $result_ve['Direccion'];
         header('Location: perfil.php');
-        
     }else{
-        echo '<h3>¡Contraseña Erronea!';
-        die();
+        ?>
+        <script>
+        alert('¡Contraseña Erronea!');
+        </script>
+        <?php    
+        die();//matar la operación
     }
     }
-
     ?>
 </body>
 </html>

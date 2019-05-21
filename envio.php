@@ -20,16 +20,16 @@
         <h3>Envios Nacionales</h3>
     <div class="parrafo" > 
         Nuestros envios a nivel Nacional son hechos de dos maneras; cliente <label class="vip">VIP</label> (tienen una
-         membrecía mensual) y el <label class="comun">común</label>, la diferencia entre estos son:<br><br>
+         membrecía mensual) y el <label class="comun">común</label>. La diferencia entre estos son:<br><br>
 
     </div>
 
     <div class="comun">Envío Cliente común:<br></div><br>
     <label class="negrita">Vía Terrestre: </label>
-    Se tardara dependiendo de punto de origen a destino,
-     mínimo. un día y medio, máximo. 3 días <label class="alerta">(peso máximo de paquete hasta 5kg)</label>.<br>
-    <label class="negrita">Vía Marítima:</label>  Se tardara dependiendo de punto de origen a destino, minino. 
-    un día y medio y máximo 3 días.<br><br>
+    Se tardará dependiendo de punto de origen a destino.
+     Mínimo un día y medio, Máximo 3 días <label class="alerta">(peso máximo de paquete hasta 5kg)</label>.<br>
+    <label class="negrita">Vía Marítima:</label>  Se tardará dependiendo de punto de origen a destino. Minino 
+    un día y medio y Máximo 3 días.<br><br>
 
     <div class="vip">Envío Cliente VIP:<br></div><br>
     <label class="negrita">Vía Aérea:</label> El envío se hace en horas específicas y puede tardar, mínimo  6 horas
@@ -51,7 +51,7 @@
      
     <div class="vip">Envío Cliente VIP:<br></div><br>
     <label class="negrita">Vía Aérea:</label> Tarda dependiendo del lugar a entregar el paquete (sin contar aduanas),
-     mínimo 1 horas y máximo 2 días <label class="alerta">(peso máximo de paquete hasta 4kg)</label>.<br>
+     mínimo 1 hora y máximo 2 días <label class="alerta">(peso máximo de paquete hasta 4kg)</label>.<br>
     <label class="negrita">Vía Marítima:</label> Tarda dependiendo del lugar a entregar el paquete (sin contar aduanas),
      aparte de que tenemos dos días fijos a la semana de partida de nuestras flotas 
      teniendo en cuenta pueden tardar mínimo 2 y máximo 4.<br>

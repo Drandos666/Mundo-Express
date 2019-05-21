@@ -31,7 +31,7 @@ session_start();
             <textarea id="dire" name="dire" ></textarea>
         <input type="hidden" name="id" value="<?php echo $_SESSION['id']?>" /> <br/><!-- input invisible, necesario para usar id y porder cambiar una fila de elementos -->
         <br>
-        <input type="submit" name="envio" value="Editar"><!-- Boton para guardar -->
+        <input type="submit" name="envio" onclick="javascript:alert('Datos Cambiados Con Exito!!');" value="Editar"><!-- Boton para guardar -->
     </form>
   
 
